@@ -12,17 +12,19 @@ import java.util.Date;
 
 public class Tester {
     public static void main(String[] args) {
-        LocalDateTime enter =
-                LocalDateTime.of(2018,12,25,
-                        8,0,0);
-        LocalDateTime leave =
-                LocalDateTime.of(2018,12,25,
-                        10,8,0);
-        Car car = new Car("ABC-1234",enter);
-        car.setLeave(leave);
-        System.out.println(car.getDuration());
-        long hours = (long) Math.ceil(car.getDuration()/60f);  //Math.ceil = 無條件進位
-        System.out.println(hours);
+//        LocalDateTime enter =
+//                LocalDateTime.of(2018,12,25,
+//                        8,0,0);
+//        LocalDateTime leave =
+//                LocalDateTime.of(2018,12,25,
+//                        10,8,0);
+//        Car car = new Car("ABC-1234",enter);
+//        car.setLeave(leave);
+//        System.out.println(car.getDuration());
+//        long hours = (long) Math.ceil(car.getDuration()/60f);  //Math.ceil = 無條件進位
+//        System.out.println(hours);
+        LocalDateTime now = LocalDateTime.now();
+        System.out.println(now);
 //        java8();
         //java();
     }

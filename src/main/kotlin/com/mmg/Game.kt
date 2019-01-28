@@ -1,5 +1,6 @@
 package com.mmg
 
+import jdk.nashorn.internal.runtime.ScriptingFunctions.readLine
 import java.util.*
 
 fun main(args: Array<String>) {
